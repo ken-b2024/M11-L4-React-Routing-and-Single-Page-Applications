@@ -1,0 +1,36 @@
+#root {
+  text-align: center;
+}
+
+nav {
+  font-size: 18pt;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 2rem 0 2rem;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #8ee8ff;
+  color: lightslategray;
+}
+
+nav a:active {
+  background-color: #dfeee9;
+  color: black;
+}
+
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
